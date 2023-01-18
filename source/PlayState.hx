@@ -1570,7 +1570,7 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
-		var video:MP4Handler = vlc.MP4Handler();
+		var video:MP4Handlerr();
 		video.playVideo(filepath);
 		video.finishCallback = function()
 		{
